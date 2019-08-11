@@ -15,7 +15,7 @@ from keras.layers import Flatten, Dense
 from tensorflow.keras.callbacks import TensorBoard
 ```
 
-Defining the path to training and validation images:
+Defining path to training and validation images:
 
 ```python
 train_path = '/Users/nandhinee_pr/CNN_Session/train'
@@ -44,7 +44,7 @@ Compiling the model:
 model.compile(loss='binary_crossentropy',optimizer='rmsprop',metrics=['accuracy'])
 ```
 
-Operations performed on the data:
+Operations performed on data:
 
 ```python
 train_datagen = ImageDataGenerator(
