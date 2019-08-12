@@ -44,7 +44,13 @@ Compiling the model:
 model.compile(loss='binary_crossentropy',optimizer='rmsprop',metrics=['accuracy'])
 ```
 
-Operations performed on data:
+To view the architecture:
+
+```python
+model.summary()
+```
+
+Image augmetation:
 
 ```python
 train_datagen = ImageDataGenerator(
