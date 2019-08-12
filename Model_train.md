@@ -50,7 +50,7 @@ To view the architecture:
 model.summary()
 ```
 
-Image augmetation:
+Image augmentation:
 
 ```python
 train_datagen = ImageDataGenerator(
