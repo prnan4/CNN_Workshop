@@ -99,5 +99,5 @@ To save the model:
 ```python
 model.save('/Users/nandhinee_pr/CNN_Session/model1.h5')
 train_generator.class_indices
-#Open command prompt. Type this in the directory that houses logs. tensorboard --lodir='logs/'
+#Open command prompt. Type this in the directory that houses logs. tensorboard --lodir='logs/'i
 ```
